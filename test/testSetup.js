@@ -13,3 +13,5 @@ global.dom = new JSDOM(html, { runScripts: 'dangerously' });
 dom.window.eval(jQuery);
 dom.window.eval(ticTacToe);
 dom.window.XMLHttpRequest = sinon.useFakeXMLHttpRequest();
+
+hello
